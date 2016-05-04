@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
-		<section id="content">
+		<section class="content">
 			<h2>Comparison of National Events to Number of Deaths and Population Increase, 1980-2013</h2>
 			<br>
 
@@ -17,25 +17,40 @@
 
 				<br>
 				<br>
+			</p>
+		</section>
+
+		<div id="graph">
+		    <a href="https://plot.ly/~gerda.most/23/" target="_blank" title="US Deaths and Population" style="display: block; text-align: center;"><img src="https://plot.ly/~gerda.most/23.png" alt="US Deaths and Population" style="max-width: 100%;width: 4000px;"  width="4000" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+		    <script data-plotly="gerda.most:23"  src="https://plot.ly/embed.js" async></script>
+		</div>
+
+		<section class="content">
+			<p>
+				<br>
+				<br>
 
 				In most points on the timeline, the number of deaths are only marginally influenced by major events, though they still contribute to the death count. This is evidenced by the 2996 deaths during the terrorist attacks of 2001 that were only 0.12% of the 2,416,425 deaths total for that year. The research reflects that in recent years, no single event can be a major cause of death for that particular year. In the late 19th and early 20th centuries, however, before the development of immunizations, certain years' deaths rates could be pinpointed to one particular event, usually an outbreak of influenza in major urban areas like New York.
 
 				<br>
 				<br>
+				<div id="timeline">
+					Scroll horizontally to navigate timeline
+					<br><br>
+					<img src="Timeline_Graph.jpg">
+				</div>
+				<br>
+				<br>
 
 				The 20th-21st centuries showed advancements in medical technology, immunizations, the eradication of certain deadly viruses, and overall better working and living conditions. It can be realized that these developments play a major role in the relationship of population to death numbers. As the population increases, the number of deaths also increase, but at a much lower rate.
+
+				<hr/>
+
+				Sources, links, etc:
+
+				<a href="https://github.com/Datavis-sp16/final-project-group4">Source Code</a>
 			</p>
 		</section>
-
-		<div id="graph" data-plotly="gerda.most/23" style="text-align: center; position: relative;">
-			<a href="https://plot.ly/~gerda.most/23/" target="_blank" title="US Deaths and Population" style="display: block; text-align: center;" data-plotly="gerda.most/23"><img src="https://plot.ly/~gerda.most/23.png" alt="US Deaths and Population" style="max-width: 100%;width: 4000px;" width="4000" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" data-plotly="gerda.most/23"></a><iframe id="plotly-gerda.most:23" width="4000" height="" frameborder="0" scrolling="no" src="https://plot.ly/~gerda.most/23.embed" style="max-width: 100%; visibility: hidden; position: absolute;"></iframe>
-		</div>
-
-		<div id="timeline">
-			Scroll horizontally to navigate timeline
-			<br><br>
-			<img src="Timeline_Graph.jpg">
-		</div>
 
 	</body>
 </html>

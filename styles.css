@@ -1,4 +1,4 @@
-section#content {
+section.content {
 	margin: auto;
 	padding: 20px;
 	line-height: 20px;
@@ -7,16 +7,16 @@ section#content {
 	position: relative;
 }
 
-section#content h2 {
+section.content h2 {
 	font-size: 35px;
 	line-height: 38px;
 }
 
-section#content #byline {
+section.content #byline {
 	font-weight: bold;
 }
 
-section#content p {
+section.content p {
 	font-size: 15px;
 }
 
