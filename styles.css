@@ -1,0 +1,22 @@
+section#content {
+	margin: auto;
+	padding: 20px;
+	line-height: 20px;
+	font-family: "Roboto";
+	max-width: 900px;
+	position: relative;
+}
+
+section#content h1 {
+	
+}
+
+section#content p {
+	font-size: 12px;
+}
+
+#graph {
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+}
