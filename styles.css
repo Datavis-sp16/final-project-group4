@@ -3,12 +3,13 @@ section#content {
 	padding: 20px;
 	line-height: 20px;
 	font-family: "Roboto";
-	max-width: 900px;
+	max-width: 700px;
 	position: relative;
 }
 
 section#content h2 {
-	font-size: 22px;
+	font-size: 35px;
+	line-height: 38px;
 }
 
 section#content #byline {
@@ -16,11 +17,26 @@ section#content #byline {
 }
 
 section#content p {
-	font-size: 12px;
+	font-size: 15px;
 }
 
 #graph {
 	width: 90%;
 	margin: auto;
 	padding: 20px;
+}
+
+#timeline {
+	max-width: 700px;
+	margin: auto;
+	overflow-x: scroll;
+	padding: 45px;
+	border: 1px solid #eee;
+	border-radius: 15px;
+	text-align: center;
+	font-family: "Roboto";
+}
+
+#timeline img {
+	height: 400px;
 }
