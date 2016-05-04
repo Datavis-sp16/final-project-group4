@@ -7,8 +7,12 @@ section#content {
 	position: relative;
 }
 
-section#content h1 {
-	
+section#content h2 {
+	font-size: 22px;
+}
+
+section#content #byline {
+	font-weight: bold;
 }
 
 section#content p {
